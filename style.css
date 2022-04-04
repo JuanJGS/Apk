@@ -1,0 +1,110 @@
+
+body{
+
+    background: rgb(182, 247, 174) !important;
+    color: rgb(79, 82, 79);
+    font-family:  monospace, Courier, 'Courier New';
+
+}
+
+img{
+    border-radius: 2%;
+    
+}
+
+img:hover{
+    box-shadow: 10px 10px 10px 10px;
+}
+
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.title {
+
+    font-weight: bold;
+    text-align: center;
+}
+
+p{
+    padding-top: 10px !important;
+    text-align: justify;
+    color: rgb(119, 122, 119);
+}
+
+h3{
+    padding-bottom: 15px !important;
+}
+
+.card{
+    background-color: rgb(148, 238, 136);
+    border-radius: 2%;
+    border: 2px solid;
+    padding: 0 1em 0 1em;
+    
+}
+
+
+.row {
+    max-width:960px;
+    margin: 0 auto;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+[class*='large'], [class*='small'] {
+  float: left;
+  padding: 5px;
+}
+
+.container {
+  padding: 0 2em 0 2em;
+  padding-top: 30px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .small-1 {width: 8.333%;}
+  .small-2 {width: 16.666%;}
+  .small-3 {width: 25%;}
+  .small-4 {width: 33.333%;}
+  .small-5 {width: 41.666%;}
+  .small-6 {width: 50%;}
+  .small-7 {width: 58.333%;}
+  .small-8 {width: 66.666%}
+  .small-9 {width: 75%;}
+  .small-10 {width: 83.333%}
+  .small-11 {width: 91.666%;}
+  .small-12 {width: 100%}
+}
+
+@media (min-width: 768px) {
+  .large-1 {width: 8.333%;}
+  .large-2 {width: 16.666%;}
+  .large-3 {width: 25%;}
+  .large-4 {width: 33.333%;}
+  .large-5 {width: 41.666%;}
+  .large-6 {width: 50%;}
+  .large-7 {width: 58.333%;}
+  .large-8 {width: 66.666%}
+  .large-9 {width: 75%;}
+  .large-10 {width: 83.333%}
+  .large-11 {width: 91.666%;}
+  .large-12 {width: 100%}
+}
